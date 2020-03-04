@@ -30,7 +30,7 @@ const invertDate = userDate => {
 }
 ````
 
-Se puede ver un demo del código funcionando justo aquí:
+Se puede ver un demo del código funcionando justo aquí: https://oramos0.github.io/taltere-challenge/
 
 ---
 
