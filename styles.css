@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.date-input-container {
+  width: 65vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.date-input-container__item {
+  font-size: 10px;
+  padding: 10px 10px 10px 5px;
+  margin: 10px;
+  width: 20vw;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+
+.date-input-container__button {
+  min-width: 5vw;
+  outline: 0;
+  background: #4caf50;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.date-input-container__button:hover {
+  background: #43a047;
+}
+
+.invert-date {
+  margin: 5vh;
+  color: white;
+}

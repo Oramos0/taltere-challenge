@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="date-input-container">
+      <input
+        id="month"
+        placeholder="Mes"
+        type="text"
+        class="date-input-container__item"
+      />
+      <input
+        id="day"
+        placeholder="Dia"
+        type="text"
+        class="date-input-container__item"
+      />
+      <input
+        id="year"
+        placeholder="Año"
+        type="text"
+        class="date-input-container__item"
+      />
+      <button class="date-input-container__button" onclick="getData()">
+        Invertir
+      </button>
+    </div>
+    <label id="invertData" class="invert-date">Fecha</label>
+  </body>
+</html>
